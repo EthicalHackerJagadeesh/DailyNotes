@@ -1,0 +1,131 @@
+GITHUB
+
+
+GIT:- version control system  ---> Local system or local storage 
+			
+			git commands
+
+
+
+GITHUB:- Collobration Tool Environment --> cloud storage 
+
+
+git use local system code into cloud platform storage 
+
+
+
+
+🗓 Week 1: Git Basics & Local Version Control
+📌 Goal: Understand Git fundamentals & manage changes locally.
+
+✅ Install Git & configure (git config --global user.name "Your Name")
+✅ Create a local repo (git init)
+✅ Track changes (git add, git commit)
+✅ View commit history (git log, git status)
+✅ Undo changes (git checkout, git reset, git revert)
+
+🛠 Practice Task:
+
+Create a small project, make changes, and track them using commits.
+
+🗓 Week 2: Branching, Merging & Collaboration
+📌 Goal: Learn how to work on features independently & merge code.
+✅ Create & switch branches (git checkout -b feature-branch)
+✅ Merge branches (git merge feature-branch)
+✅ Delete branches (git branch -d feature-branch)
+✅ Understand merge conflicts & resolve them manually
+✅ Use git stash to save unfinished work
+
+🛠 Practice Task:
+
+Implement a feature in a new branch, merge it into main, and resolve any conflicts.
+🗓 Week 3: GitHub, Remote Repositories & PRs
+📌 Goal: Push code to GitHub & collaborate with others.
+✅ Clone a repository (git clone <repo-url>)
+✅ Link local repo to GitHub (git remote add origin <repo-url>)
+✅ Push & pull changes (git push origin branch, git pull origin main)
+✅ Create a fork & make a pull request (PR)
+✅ Review & approve PRs
+
+🛠 Practice Task:
+
+Each developer forks the project, creates a feature branch, pushes changes, and submits a PR.
+🗓 Week 4: Advanced Git & Best Practices
+📌 Goal: Improve Git workflow & adopt best practices.
+✅ Interactive rebase (git rebase -i HEAD~3)
+✅ Squash commits into a single commit (git rebase -i)
+✅ Reset vs. Revert (git reset --hard HEAD~1, git revert HEAD)
+✅ Git tags & versioning (git tag -a v1.0 -m "Version 1.0")
+✅ Set up branch protection rules on GitHub
+✅ GitHub Actions for automation
+
+🛠 Practice Task:
+
+Create tags for releases, squash commits, and set up a protected main branch.
+🎯 Final Project & Review
+📌 Apply all skills in a real-world scenario
+✅ Assign a team project where each developer works on a different feature.
+✅ Use branches, pull requests, and code reviews effectively.
+✅ Resolve merge conflicts & follow Git best practices.
+✅ Deploy the final version & tag a release.
+
+
+
+main -->   team lead
+
+
+1-> repo clone 
+
+git clone https://github.com/EthicalHackerJagadeesh/TechHat.git
+
+
+2-> open folder 
+
+cd TechHat
+
+
+
+3-->
+
+create a new branch 
+
+git checkout -b Karthik/Frontend/ContactPage
+
+
+4-> editing code
+
+5-> add the code into the branch
+ 
+ 	git add .
+
+
+6-> set commit Message 
+
+	git commit -m "Contact Page Implemented"
+
+
+7-> push the code into github branch
+
+	git push --set-upstream origin Karthik/Frontend/ContactPage
+
+
+
+8--> team can check the code before after merge to main branch
+
+	whenever code merge to main branch 
+
+
+9--> After that delete the brach on our local system
+
+	git branch -d Karthik/Frontend/ContactPage 
+
+					or 					-d -> delete , -D  --> force Delete
+
+	git branch -D Karthik/Frontend/ContactPage
+
+
+
+10--> get the main branch code into the local system
+
+git pull origin main
+
