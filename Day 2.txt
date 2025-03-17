@@ -1,0 +1,6 @@
+Day 2 Notes
+-----------------
+
+HTML Tags
+
+CSS properties
